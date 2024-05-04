@@ -1,8 +1,85 @@
 :host {
   width: 1200px;
   height: 500px;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+table{
+  background-color: rgb(216, 233, 236);
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgb(143, 143, 143);
+  box-shadow: 0px 0px 10px 1px rgb(176, 176, 176);
+}
+
+caption {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.departure-style-active {
+  font-weight: bold;
+}
+
+.departure-style-inactive {
+  color: rgb(124, 149, 151);
+}
+
+.no-delay-style {
+  padding: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(122, 248, 122);
+  color: rgb(0, 0, 0);
+}
+
+.delay-style {
+  padding: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: orange;
+  color: black;
+}
+
+.flight-cancelled-style {
+  padding: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(248, 119, 119);
+  color: black;
+  font-weight: 600;
+}
+
+thead {
+  background-color: rgb(225, 210, 74);
+  box-shadow: 0px 1px 5px 1px rgb(195, 195, 195);
+}
+
+tr:hover {
+  background-color: rgb(208, 228, 233);
+  cursor: pointer;
+}
+
+img {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+th {
+  font-size: 18px;
+}
+
+td {
+  font-size: 17px;
+}
+
+th,td {
+  border-bottom: 1px solid rgb(143, 143, 143);
+  height: 70px;
+  text-align: center;
 }
